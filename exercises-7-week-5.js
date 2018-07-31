@@ -1,6 +1,6 @@
 function hapusSimbol(str) {
   // you can only write your code here!
-  var arr = str.match(/[a-z,0-9]/gi)
+  var arr = str.match(/[a-z,0-9]/g)
   var res=''
 // console.log(arr)
   for ( var i = 0 ; i < arr.length; i++)
